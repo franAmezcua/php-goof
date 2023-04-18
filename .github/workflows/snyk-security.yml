@@ -10,5 +10,3 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN_EU }}
           SNYK_API: https://app.eu.snyk.io/api
-        with:
-          command: monitor
